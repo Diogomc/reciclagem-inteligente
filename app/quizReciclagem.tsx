@@ -41,7 +41,7 @@ export const QuizReciclagem = () => {
 
         />
       </div>
-      <p className="text-xl m-4">O produto tem algum desses materiais?</p>
+      <p className="text-xl m-4 max-md:text-center">O produto tem algum desses materiais?</p>
       <div className="flex p-6 max-md:flex-col">
         {materials.map((m) => (
           <div key={m} className="m-2 bg-white rounded-md p-2 flex items-center max-md:p-px">
