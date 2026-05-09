@@ -58,8 +58,8 @@ export const QuizReciclagem = () => {
       </div>
       <button onClick={resultProduct} className="bg-green-600 text-white p-2 rounded-md cursor-pointer hover:bg-green-800">Verificar</button>
       {result
-        ? <h1 className="text-2xl">{result} é reciclável ♻️</h1>
-        : <p className="text-2xl">{result} não é reciclável ❌</p>
+        ? <h1 className="text-2xl max-md: text-center max-md:p-2">{result} é reciclável ♻️</h1>
+        : <p className="text-2xl max-md:text-center max-md:p-2">{result} não é reciclável ❌</p>
       }
     </div>
   )
